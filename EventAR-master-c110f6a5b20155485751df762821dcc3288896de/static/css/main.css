@@ -1,0 +1,293 @@
+/* LANDING PAGE & BASE CSS */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+
+div.dropdown-menu.show a:active {
+  background-color: #fff;
+  color: #FF5733;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+.mainDisplay {
+  position: relative;
+    display: block;
+    height: 1100px;
+    background: #fff;
+}
+
+.horizontal-line {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* HEADER */
+
+.bg-header {
+  background-color: #000;
+}
+
+/* GRID SLIDESHOW */
+
+.grid__item--name {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.grid__item--title {
+  font-weight: 600;
+}
+
+.section-grid-photos {
+  padding-bottom: 400px; //adjust for smaller screen
+}
+
+.grid {
+  margin-top: 70px; //spacing above grid photos
+}
+
+/* HEADINGS */
+
+h1>.hvr-underline-from-left {
+  height: 6px;
+}
+
+/* DESCRIPTION */
+
+.section-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.sub-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.sub-heading:hover {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #900c3f;
+  /* purple */
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* ANIMATIONS */
+
+.hvr-underline-from-left:before {
+  background: #FF5733;
+  height: 4px;
+  transition-property: right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+/* DROPDOWN BUTTON AND MENU */
+
+.navbar-dropbutton {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 0rem;
+  height: 40px;
+  width: 40px;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-dropbutton:hover, .navbar-dropbutton:focus {
+  text-decoration: none;
+}
+
+.btn-group {
+  padding-right: 50px;
+}
+
+.dropdown-menu {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-item {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: none;
+}
+
+.dropdown-item:hover {
+  color: #333;
+}
+
+.badge-danger[href]:hover, .badge-danger[href]:focus, a.bg-danger:hover, a.bg-danger:focus, button.bg-danger:hover, button.bg-danger:focus {
+  background-color: #900c3f;
+}
+
+.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .show>.btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: #900c3f;
+  border-color: #b21f2d;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #FF5733;
+  border-style: none;
+  /* border-color: #dc3545; */
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #900c3f;
+  border-color: #dc3545;
+}
+
+/* PACKAGES */
+
+.packages-subheading {
+  font-size: 30px;
+  color: #900c3f;
+  padding-bottom: 20px;
+}
+
+/* SEARCH BAR */
+
+.search-text {
+  background-color: #f8f9fa;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.search-text .input-search {
+  height: 45px;
+  width: 80%;
+  padding-left: 20px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.search-text .btn-search {
+  background: #900c3f;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border: none;
+  color: #FFF;
+  height: 45px;
+  width: 100px;
+}
+
+/* FOOTER */
+
+footer {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+h6>a {
+  color: #fff;
+}
+
+h6>a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.footer-socials {
+  padding-bottom: 2em;
+}
+
+.footer-copyright {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1em 0 1em 0;
+  font-size: 12px;
+}
+
+/* Adjustments for a smaller screen */
+
+@media only screen and (max-width: 500px) {
+  .section-grid-photos {
+    padding-bottom: 100px;
+    /*just for smaller screen*/
+  }
+  div .grid {
+    margin: 3em 0 5em;
+    /*spacing above grid photos*/
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .grid {
+    display: grid;
+    width: 0px;
+    height: 0px;
+    grid-auto-rows: 0px;
+    ;
+    grid-auto-columns: 0px;
+    justify-content: center;
+    align-content: center;
+    grid-gap: var(--gap);
+    pointer-events: none;
+    padding-left: 100px;
+    padding-top: 200px;
+    margin-top: 60px; //space from above grid photos
+  }
+  .section-grid-photos {
+    display: none;
+  }
+  .jumbotron-xs {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/images/jumbotron/andreas-ronningen-29698-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  section {
+    padding: 30px 0;
+  }
+}
+
+/* Adjustments for medium screen */
+@media only screen and (max-width: 767px) {
+.block {
+  padding-top: 30px;
+}
+}
+
+/* Adjustments for larger screen */
+
+@media only screen and (min-width: 700px) {
+  section {
+    padding: 100px 0;
+  }
+}
