@@ -1,0 +1,10 @@
+C:\Users\natha\source\repos\KNN\KNN\bin\Debug\KNN.exe.config
+C:\Users\natha\source\repos\KNN\KNN\bin\Debug\KNN.exe
+C:\Users\natha\source\repos\KNN\KNN\bin\Debug\KNN.pdb
+C:\Users\natha\source\repos\KNN\KNN\obj\Debug\KNN.csprojAssemblyReference.cache
+C:\Users\natha\source\repos\KNN\KNN\obj\Debug\KNN.csproj.CoreCompileInputs.cache
+C:\Users\natha\source\repos\KNN\KNN\obj\Debug\KNN.exe
+C:\Users\natha\source\repos\KNN\KNN\obj\Debug\KNN.pdb
+C:\Users\natha\source\repos\KNN\KNN\bin\Debug\CsvHelper.dll
+C:\Users\natha\source\repos\KNN\KNN\bin\Debug\CsvHelper.xml
+C:\Users\natha\source\repos\KNN\KNN\obj\Debug\KNN.csproj.CopyComplete
