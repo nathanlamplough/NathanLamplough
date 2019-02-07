@@ -15,7 +15,7 @@ def main():
     test_x = torch.tensor(data.x_test, dtype = torch.float)
     test_y = torch.tensor(data.y_test, dtype=torch.long)
     model = Net(4, 4, 3, 0,0)
-    model = run_network(100, x, y, model)
+    model = run_network(1000, x, y, model)
     model.eval()
     y_pred = model(test_x)
     pred = y_pred.data.numpy()
@@ -29,7 +29,8 @@ def run_network(epochs, x, y, model):
 
         loss = loss_func(y_pred, y)
         print('Epoch: ', epoch, ' Loss: ', loss.item())
-
+        if(loss < 0.7):
+            break
         opt.zero_grad()
         loss.backward()
         opt.step()
